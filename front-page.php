@@ -1,5 +1,7 @@
 <?php
-    get_header();
+	get_header();
+	echo "<!-- front-page.php -->"
+
 ?>
 
 <!-- Banner -->
@@ -9,7 +11,7 @@
 					<p>A responsive business oriented template with a video background<br />
 					designed by <a href="https://templated.co/">TEMPLATED</a> and released under the Creative Commons License.</p>
 				</div>
-				<video autoplay loop muted playsinline src="<?php echo get_template_directory_uri()."/images/banner.mp4"?>"></video>
+				<video autoplay loop muted playsinline src= "<?php echo(get_template_directory_uri()."/images/banner.mp4")?>"></video>
 			</section>
 
 		<!-- Highlights -->

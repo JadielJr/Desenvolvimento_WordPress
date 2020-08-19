@@ -17,7 +17,7 @@
             wp_head();
         ?>
 	</head>
-	<body class="is-preload">
+	<body>
 
 		<!-- Header -->
 			<header id="header">
