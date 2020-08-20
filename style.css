@@ -1804,7 +1804,7 @@ ul.icons {
   -ms-flex-align: center;
   -ms-flex-pack: center;
   background-color: #111111;
-  color: rgba(255, 255, 255, 0.5);
+  color: #FCF3D6;
   -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
@@ -1836,7 +1836,7 @@ ul.icons {
   #banner strong, #banner b {
     color: #ffffff; }
   #banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-    color: #ffffff; }
+    color: #FCF3D6; }
   #banner blockquote {
     border-left-color: rgba(255, 255, 255, 0.25); }
   #banner code {
@@ -1979,10 +1979,10 @@ ul.icons {
   #banner p {
     font-size: 1.5rem; }
   #banner a {
-    color: rgba(255, 255, 255, 0.5);
-    text-decoration: none; }
+    color:#ffffff;
+    text-decoration-line: underline ; }
     #banner a:hover {
-      color: #ffffff; }
+      color: brown; }
   #banner video {
     -moz-transform: translateX(50%) translateY(50%);
     -webkit-transform: translateX(50%) translateY(50%);
@@ -2016,7 +2016,7 @@ ul.icons {
     width: 100%;
     z-index: 1; }
   #banner:after {
-    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+    background: linear-gradient(110deg, #663939 50%, #111111 74%);
     content: ' ';
     display: block;
     height: 100%;
@@ -2067,7 +2067,7 @@ ul.icons {
   background-color: #ce1b28;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)) , url(images/cta01.jpg);
+  background-image: linear-gradient(rgba(206, 27, 40, 0.25), #523637) , url(images/cta01.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2212,8 +2212,8 @@ ul.icons {
 
 /* Footer */
 #footer {
-  background-color: #111111;
-  color: rgba(255, 255, 255, 0.5);
+  background-color: #663939;
+  color: #FCF3D6;
   padding: 8rem 0 6rem 0 ; }
   #footer input, #footer select, #footer textarea {
     color: #ffffff; }
@@ -2222,7 +2222,7 @@ ul.icons {
   #footer strong, #footer b {
     color: #ffffff; }
   #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-    color: #ffffff; }
+    color: #FCF3D6; }
   #footer blockquote {
     border-left-color: rgba(255, 255, 255, 0.25); }
   #footer code {
@@ -2346,7 +2346,7 @@ ul.icons {
     #footer .testimonials .content .credit strong {
       color: #ce1b28; }
   #footer a {
-    color: rgba(255, 255, 255, 0.5);
+    color: #FCF3D6;
     text-decoration: none; }
     #footer a:hover {
       color: #ce1b28; }
@@ -2424,8 +2424,8 @@ body {
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #111111;
-  color: rgba(255, 255, 255, 0.5);
+  background: #FCF3D6;
+  color: #663939;
   cursor: default;
   height: 3.25rem;
   left: 0;
@@ -2435,7 +2435,7 @@ body {
   width: 100%;
   z-index: 10001; }
   #header > .logo {
-    color: #ffffff;
+    color: #663939;
     font-size: 1rem;
     font-weight: 600;
     height: inherit;
@@ -2682,8 +2682,8 @@ body {
 
 /* Menu */
 #menu {
-  background-color: #111111;
-  color: rgba(255, 255, 255, 0.5);
+  background-color: #fcf3d6;
+  color: #663939;
   -moz-transform: translateX(20rem);
   -webkit-transform: translateX(20rem);
   -ms-transform: translateX(20rem);
@@ -2718,7 +2718,7 @@ body {
     background: rgba(255, 255, 255, 0.075);
     border-color: rgba(255, 255, 255, 0.25); }
   #menu hr {
-    border-bottom-color: rgba(255, 255, 255, 0.25); }
+    border-bottom-color: #663939; }
   #menu input[type="submit"],
   #menu input[type="reset"],
   #menu input[type="button"],

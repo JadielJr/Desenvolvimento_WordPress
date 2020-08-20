@@ -21,7 +21,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<a class="logo" href="index.html">DevPress</a>
+				<a class="logo" href="index.html">Cefas Cafés </a>
 				<nav>
 					<a href="#menu">Menu</a>
 				</nav>
@@ -30,7 +30,7 @@
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
-					<li><a href="index.html">Home</a></li>
+					<li><a href="index.html">Home</a></li> 
 					<li><a href="elements.html">Elements</a></li>
 					<li><a href="generic.html">Generic</a></li>
 				</ul>
