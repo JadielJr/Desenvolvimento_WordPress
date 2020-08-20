@@ -2448,7 +2448,7 @@ body {
     padding: 0 0.75rem;
     text-decoration: none; }
     #header > nav > a:hover {
-      color: #ffffff; }
+      color: tomato; }
     #header > nav > a[href="#menu"] {
       text-decoration: none;
       -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
@@ -2770,13 +2770,13 @@ body {
         padding: 0; }
         #menu > ul.links > li > a {
           border: 0;
-          border-top: solid 1px rgba(255, 255, 255, 0.25);
+          border-top: solid 1px #663939;
           color: inherit;
           display: block;
           line-height: 3.5rem;
           text-decoration: none; }
           #menu > ul.links > li > a:hover {
-            color: #ffffff; }
+            color: tomato; }
         #menu > ul.links > li:first-child > a {
           border-top: 0; }
   #menu .close {
@@ -2787,7 +2787,7 @@ body {
     transition: color 0.2s ease-in-out;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     border: 0;
-    color: rgba(255, 255, 255, 0.4);
+    color: #663939;
     cursor: pointer;
     display: block;
     height: 3.25rem;
@@ -2810,7 +2810,7 @@ body {
       content: '\f00d';
       font-size: 1.25rem; }
     #menu .close:hover {
-      color: #ffffff; }
+      color: tomato; }
     @media screen and (max-width: 736px) {
       #menu .close {
         height: 4rem;
