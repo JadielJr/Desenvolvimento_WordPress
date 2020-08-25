@@ -24,5 +24,7 @@
     }
     add_action('wp_enqueue_scripts','TemaCurso_resourse');
 
-
+    register_nav_menus(array(
+        'primary' =>  __( 'Primary Menu'),
+    ));
 ?>

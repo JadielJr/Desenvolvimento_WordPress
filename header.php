@@ -21,12 +21,25 @@
 
 		<!-- Header -->
 			<header id="header">
-				<a class="logo" href="index.html">Cefas Cafés </a>
+				<a class="logo" href="front-page.php">Cefas Cafés </a>
 				<nav>
 					<a href="#menu">Menu</a>
 				</nav>
 			</header>
-
+			
+			<?php
+				$args = array(
+				'theme_location'  => 'primary',
+				'menu_class'      => 'menu_class',
+				'container_class' => 'links',
+				'menu'            => '',
+				'container'       => 'nav',
+				'container_class' => '',
+				'container_id'    => '',
+				'menu_class'      => '',
+				'menu_id'         => 'menu'
+			);?>
+			<?php wp_nav_menu( $args ); ?>
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
@@ -35,5 +48,7 @@
 					<li><a href="generic.html">Generic</a></li>
 				</ul>
             </nav>
+
+			
             
 </html>
